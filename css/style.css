@@ -1,0 +1,129 @@
+body{
+    font: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 30px;
+    min-height: 70px;
+
+}
+header logo{
+    display: inline-block;
+}
+header img{
+    float: left;
+    width: 134px;
+}
+ nav{
+    display: inline;
+    padding: 50px 10px;
+    margin-left: 150px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+header ul{
+    display: inline;
+    
+    padding: 20px;
+}
+header li{
+    
+    display: inline;
+    padding: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+
+}
+header nav1{
+    float: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+header li:hover{
+    color: blue;
+}
+header talk{
+    display: inline;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    float: right;
+    background-color: white;
+    color: #665CD7;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-weight: 500;
+   
+}
+.btn:hover{
+    color: cornsilk;
+    background-color: #665CD7;
+}
+
+showcase {
+    position: relative;
+    padding-top: 90px;
+    margin-top: 600px;;
+    float: center;
+}
+.head1{
+    text-align: center;
+    font-size: 5.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+ p{
+   text-align: center;
+   font-family: "fontLatoRegular";
+   font-size: 1.5rem;
+   line-height: 2;
+   font-weight: 500;
+}
+.btn1{
+    margin-left: 450px;
+    padding: 20px 60px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #665CD7;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+}
+.btn1 i{
+    display: none;
+}
+.btn1 i:hover{
+    display: block;
+}
+.branding{
+    padding: 30px ;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+}
+.branding img{
+    padding-right: 80px;;
+}
+.who .text{
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
